@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Furniture Land - Premium Furniture Store',
   description: 'Discover premium furniture for your home. Quality sofas, tables, chairs and more.',
+  icons:{
+    icon:'fl-logo.png'
+  }
 };
 
 export default function RootLayout({
