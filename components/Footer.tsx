@@ -5,14 +5,14 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="container-custom py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
             <h3 className="text-2xl font-bold text-orange-600 mb-4">
               Furniture Land
             </h3>
             <p className="text-gray-300 mb-4">
-              Your trusted partner for premium furniture and home decor. 
+              Your trusted partner for premium furniture and home decor.
               Creating beautiful spaces for over 20 years.
             </p>
             <div className="flex space-x-4">
@@ -22,43 +22,20 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Quick Links */}
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
-            <div className="space-y-2">
-              <Link href="/" className="block text-gray-300 hover:text-orange-600 transition-colors">
-                Home
-              </Link>
-              <Link href="/products" className="block text-gray-300 hover:text-orange-600 transition-colors">
-                Products
-              </Link>
-              <Link href="/" className="block text-gray-300 hover:text-orange-600 transition-colors">
-                About Us
-              </Link>
-              <Link href="/" className="block text-gray-300 hover:text-orange-600 transition-colors">
-                Contact
-              </Link>
-            </div>
+
+
+          {/* Featured Image */}
+          <div className="flex items-center justify-center">
+            <img
+              src="/gmaps-test.png"
+              alt="Furniture Showcase"
+              className="h-[20vh] w-[90vh] object-cover rounded shadow-lg"
+            />
           </div>
 
-          {/* Categories */}
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Categories</h4>
-            <div className="space-y-2">
-              <Link href="/products?category=living-room" className="block text-gray-300 hover:text-orange-600 transition-colors">
-                Living Room
-              </Link>
-              <Link href="/products?category=bedroom" className="block text-gray-300 hover:text-orange-600 transition-colors">
-                Bedroom
-              </Link>
-              <Link href="/products?category=dining-room" className="block text-gray-300 hover:text-orange-600 transition-colors">
-                Dining Room
-              </Link>
-              <Link href="/products?category=office" className="block text-gray-300 hover:text-orange-600 transition-colors">
-                Office
-              </Link>
-            </div>
-          </div>
+
+
+
 
           {/* Contact Info */}
           <div>

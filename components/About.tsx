@@ -8,16 +8,15 @@ export default function About() {
               About Furniture Land
             </h2>
             <p className="text-lg text-gray-600 mb-6">
-              For over 20 years, Furniture Land has been your trusted partner in creating 
-              beautiful, comfortable homes. We specialize in premium furniture that combines 
-              style, quality, and affordability.
+             Furniture Land is your one-stop destination for timeless, handcrafted wooden furniture that blends tradition with modern comfort. Established in 2023, we take pride in offering beautifully carved pieces that add elegance and functionality to every space—be it your living room, bedroom, dining area, or office.
+
+
             </p>
             <p className="text-lg text-gray-600 mb-8">
-              Our carefully curated collection features pieces from renowned designers and 
-              manufacturers, ensuring every item meets our high standards for craftsmanship 
-              and durability.
+              At Furniture Land, every item is a result of skilled craftsmanship, premium-quality wood, and attention to detail. From classic to contemporary designs, we specialize in custom-made furniture tailored to your style and space requirements.
+
             </p>
-            <div className="grid grid-cols-3 gap-4 text-center">
+            <div className="grid grid-cols-3 gap-4 text-center ">
               <div>
                 <div className="text-2xl font-bold text-orange-600">500+</div>
                 <div className="text-gray-600">Products</div>
@@ -27,12 +26,14 @@ export default function About() {
                 <div className="text-gray-600">Happy Customers</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-orange-600">20+</div>
+                <div className="text-2xl font-bold text-orange-600">2+</div>
                 <div className="text-gray-600">Years Experience</div>
               </div>
             </div>
+
+            
           </div>
-          <div className="relative">
+          <div className="relative shrink-0">
             <img
               src="https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2"
               alt="Furniture showroom"

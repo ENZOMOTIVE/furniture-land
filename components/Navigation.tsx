@@ -11,9 +11,11 @@ export default function Navigation() {
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="container-custom">
         <div className="flex justify-between items-center h-16">
-          <Link href="/" className="text-2xl font-bold text-orange-600">
-            Furniture Land
+          <Link href="/" className="flex items-center space-x-2">
+            <img src="/fl-logo.png" alt="Logo" className="h-12 w-19 object-contain" />
+            <span className="text-2xl font-bold text-orange-600">Furniture Land</span>
           </Link>
+
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
@@ -23,9 +25,9 @@ export default function Navigation() {
             <Link href="/products" className="text-gray-700 hover:text-orange-600 transition-colors">
               Products
             </Link>
-            
-            
-            
+
+
+
           </div>
 
           {/* Icons */}
@@ -39,7 +41,7 @@ export default function Navigation() {
                 2
               </span>
             </button>
-            
+
             {/* Mobile menu button */}
             <button
               className="md:hidden p-2 text-gray-700"
