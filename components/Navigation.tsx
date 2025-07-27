@@ -23,15 +23,9 @@ export default function Navigation() {
             <Link href="/products" className="text-gray-700 hover:text-orange-600 transition-colors">
               Products
             </Link>
-            <Link href="/categories" className="text-gray-700 hover:text-orange-600 transition-colors">
-              Categories
-            </Link>
-            <Link href="/about" className="text-gray-700 hover:text-orange-600 transition-colors">
-              About
-            </Link>
-            <Link href="/contact" className="text-gray-700 hover:text-orange-600 transition-colors">
-              Contact
-            </Link>
+            
+            
+            
           </div>
 
           {/* Icons */}

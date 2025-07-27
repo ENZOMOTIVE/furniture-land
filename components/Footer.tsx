@@ -32,10 +32,10 @@ export default function Footer() {
               <Link href="/products" className="block text-gray-300 hover:text-orange-600 transition-colors">
                 Products
               </Link>
-              <Link href="/about" className="block text-gray-300 hover:text-orange-600 transition-colors">
+              <Link href="/" className="block text-gray-300 hover:text-orange-600 transition-colors">
                 About Us
               </Link>
-              <Link href="/contact" className="block text-gray-300 hover:text-orange-600 transition-colors">
+              <Link href="/" className="block text-gray-300 hover:text-orange-600 transition-colors">
                 Contact
               </Link>
             </div>
@@ -65,16 +65,16 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
             <div className="space-y-3">
               <div className="flex items-center">
-                <MapPin size={16} className="mr-2 text-orange-600" />
-                <span className="text-gray-300">123 Furniture St, City, State 12345</span>
+                <MapPin size={20} className="mr-2 text-orange-600 shrink-0" />
+                <span className="text-gray-300">Andhapasara road , Near blind school, berhampur city</span>
               </div>
               <div className="flex items-center">
-                <Phone size={16} className="mr-2 text-orange-600" />
-                <span className="text-gray-300">(555) 123-4567</span>
+                <Phone size={20} className="mr-2 text-orange-600" />
+                <span className="text-gray-300">+91 9090328422</span>
               </div>
               <div className="flex items-center">
-                <Mail size={16} className="mr-2 text-orange-600" />
-                <span className="text-gray-300">info@furnitureland.com</span>
+                <Mail size={20} className="mr-2 text-orange-600 shrink-0" />
+                <span className="text-gray-300">furnitureland2023bam@gmail.com</span>
               </div>
             </div>
           </div>
