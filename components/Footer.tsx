@@ -1,0 +1,91 @@
+import Link from 'next/link';
+import { Facebook, Twitter, Instagram, Mail, Phone, MapPin } from 'lucide-react';
+
+export default function Footer() {
+  return (
+    <footer className="bg-gray-900 text-white">
+      <div className="container-custom py-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* Company Info */}
+          <div>
+            <h3 className="text-2xl font-bold text-orange-600 mb-4">
+              Furniture Land
+            </h3>
+            <p className="text-gray-300 mb-4">
+              Your trusted partner for premium furniture and home decor. 
+              Creating beautiful spaces for over 20 years.
+            </p>
+            <div className="flex space-x-4">
+              <Facebook size={20} className="hover:text-orange-600 cursor-pointer transition-colors" />
+              <Twitter size={20} className="hover:text-orange-600 cursor-pointer transition-colors" />
+              <Instagram size={20} className="hover:text-orange-600 cursor-pointer transition-colors" />
+            </div>
+          </div>
+
+          {/* Quick Links */}
+          <div>
+            <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
+            <div className="space-y-2">
+              <Link href="/" className="block text-gray-300 hover:text-orange-600 transition-colors">
+                Home
+              </Link>
+              <Link href="/products" className="block text-gray-300 hover:text-orange-600 transition-colors">
+                Products
+              </Link>
+              <Link href="/about" className="block text-gray-300 hover:text-orange-600 transition-colors">
+                About Us
+              </Link>
+              <Link href="/contact" className="block text-gray-300 hover:text-orange-600 transition-colors">
+                Contact
+              </Link>
+            </div>
+          </div>
+
+          {/* Categories */}
+          <div>
+            <h4 className="text-lg font-semibold mb-4">Categories</h4>
+            <div className="space-y-2">
+              <Link href="/products?category=living-room" className="block text-gray-300 hover:text-orange-600 transition-colors">
+                Living Room
+              </Link>
+              <Link href="/products?category=bedroom" className="block text-gray-300 hover:text-orange-600 transition-colors">
+                Bedroom
+              </Link>
+              <Link href="/products?category=dining-room" className="block text-gray-300 hover:text-orange-600 transition-colors">
+                Dining Room
+              </Link>
+              <Link href="/products?category=office" className="block text-gray-300 hover:text-orange-600 transition-colors">
+                Office
+              </Link>
+            </div>
+          </div>
+
+          {/* Contact Info */}
+          <div>
+            <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
+            <div className="space-y-3">
+              <div className="flex items-center">
+                <MapPin size={16} className="mr-2 text-orange-600" />
+                <span className="text-gray-300">123 Furniture St, City, State 12345</span>
+              </div>
+              <div className="flex items-center">
+                <Phone size={16} className="mr-2 text-orange-600" />
+                <span className="text-gray-300">(555) 123-4567</span>
+              </div>
+              <div className="flex items-center">
+                <Mail size={16} className="mr-2 text-orange-600" />
+                <span className="text-gray-300">info@furnitureland.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="border-t border-gray-800 mt-8 pt-8 text-center">
+          <p className="text-gray-300">
+            © 2024 Furniture Land. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+}
