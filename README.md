@@ -1,51 +1,33 @@
 # Furniture Land
 
-## Project Tags
+> Furniture Land is a Next.js application with routed pages and reusable UI building blocks.
 
-- No requested category tag currently applies.
+## The Story
 
-## Overview
+Furniture Land starts with a simple goal: give the project a clear home for context, setup notes, and the next useful improvement. Its shape tells the same story: the product interface sits at the center so a maintainer can understand the project before diving into individual files.
 
-Furniture Land is a Next.js application with route files, components, and local development scripts.
+## What It Includes
 
-## Features
+- A user-facing surface for the product, demo, dashboard, or static experience.
 
-- User-facing frontend or app interface
+## How It Is Put Together
 
-## Tech Stack
+| Path | Role |
+| --- | --- |
+| `.gitignore` | ignored local, dependency, and build files |
+| `app` | project file or folder |
+| `components` | project file or folder |
+| `components.json` | project file or folder |
+| `data` | project file or folder |
+| `hooks` | project file or folder |
+| `lib` | project file or folder |
+| `next.config.js` | JavaScript source |
+| `package-lock.json` | locked dependency versions |
+| `package.json` | Node package scripts and dependencies |
+| `postcss.config.js` | JavaScript source |
+| `public` | static assets and presentation files |
 
-- Next.js
-- React
-- Node.js
-- TypeScript
-- JavaScript
-- CSS
-
-## Project Structure
-
-- `.gitignore` - project file or directory
-- `app` - application routes and screens
-- `components` - reusable UI components
-- `components.json` - reusable UI components
-- `data` - project file or directory
-- `hooks` - project file or directory
-- `lib` - project file or directory
-- `next.config.js` - project file or directory
-- `package-lock.json` - project file or directory
-- `package.json` - Node package metadata and scripts
-- `postcss.config.js` - project file or directory
-- `public` - static assets or styles
-- `tailwind.config.ts` - project file or directory
-- `tsconfig.json` - project file or directory
-
-## Getting Started
-
-### Prerequisites
-
-- Git
-- Node.js 18+
-
-### Setup and Run
+## Local Development
 
 ```bash
 git clone https://github.com/ENZOMOTIVE/furniture-land.git
@@ -57,30 +39,35 @@ npm install
 npm run dev
 ```
 
-## Commands
+## Command Surface
 
-- `package.json`: `dev`, `build`, `start`, `lint`
+| Area | Commands |
+| --- | --- |
+| `package.json` | `dev`, `build`, `start`, `lint` |
 
 ## Configuration
 
-- No required runtime configuration is documented yet. Add environment variables here when the project needs them.
+- No runtime secrets are required for the current files. Add an `.env.example` once local configuration becomes part of the project.
 
-## Testing and Quality
+## Quality Checks
 
 - From the repository root, run `npm run lint`.
 - From the repository root, run `npm run build`.
 
-## Documentation Notes
+## Where To Take It Next
 
-- Keep this README aligned with the actual source layout and commands.
-- Add screenshots, API examples, contract addresses, or deployment links when they become stable.
-- Update the project tags when the scope changes.
+- Add screenshots or a short user flow so visitors can see the interface before running it.
+- Keep setup commands current whenever dependencies, scripts, or deployment targets change.
+- Record important product decisions here so the repository keeps its story as the code evolves.
 
-## Contributing
+## Project Metadata
 
-1. Create a focused branch for the change.
-2. Update code and documentation together.
-3. Run the relevant checks before opening a pull request.
+| Field | Details |
+| --- | --- |
+| Repository | `ENZOMOTIVE/furniture-land` |
+| Categories | `General` |
+| Primary stack | Next.js, React, Node.js, TypeScript, JavaScript, CSS |
+
 
 ## License
 
